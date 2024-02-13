@@ -117,6 +117,9 @@
     text-align: center;
     margin: 0px auto;
   }
+  .con4-2>p{
+    width: 320px;font-size: 22px ;line-height: 24px ;text-align: center;font-weight: 500
+  }
   #con4-3 {
     text-align: center;
   }
@@ -164,7 +167,7 @@
     background-color: #ffffff;
     align-items: center;
     padding: 40px 0px;
-    z-index:1;flex-direction: column-reverse;margin: 70px auto
+    z-index:1;flex-direction: column-reverse;margin: 20px auto
   }
   .con6-1 {
     width: 260px;margin-top: 20px ;text-align: center
@@ -188,13 +191,13 @@
     justify-content: space-around;
     background: #ffffff;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 20px;
     align-items: center;
     padding: 40px 0px;
-    z-index:1;flex-direction: column;
+    z-index:1;flex-direction: column;display: grid;grid-template-rows: 4
   }
   .con7-1{
-    width: 100%;text-align: center
+    width: 100%;text-align: center;
   }
   .con7-1 > h1 {
     width: 205px;
@@ -209,6 +212,16 @@
   .con7-2 {
     width: 320px;text-align: center
   }
+  .con7-3{
+    display:none
+  }
+  .con7-4{
+    display:unset;    width: 300px;
+    color: #9e9da2;
+    text-align: center;position: relative;top: 20px;
+
+  }
+  
 
   .elipimg {
    position: absolute;top: -750px;display: none
@@ -240,16 +253,22 @@
   }
  
 footer{
-    margin-top: 200px;display: flex;justify-content: space-between;background: #ffffff;align-items: center;padding: 50px 50px;flex-direction: column
+    margin-top: 40px;display: flex;justify-content: center;display: grid;grid-template-rows: 4;background: #ffffff;align-items: center;padding: 50px 50px;flex-direction: column;grid-gap: 40px;background: transparent
+  }
+  footer>div:nth-of-type(1){
+    text-align: center
   }
   footer>div:nth-of-type(2){
-   width: 200px;line-height: 30px;text-align: center
+   width: 200px;line-height: 35px;text-align: center;
   }
   footer>div:nth-of-type(3){
-    width: 200px;line-height: 30px;text-align: center
+    width: 200px;line-height: 30px;text-align: center;display: none
+  }
+  footer>div:nth-of-type(4){
+    grid-row: 2;display: grid
   }
   footer>div:nth-of-type(4)>h4 {
-    background:#000000;padding: 10px 20px ;color: #ffffff;display: inline-flex;margin-left: 30px;border-radius: 3.43px;margin: 8px auto
+    background:#000000;padding: 10px 20px ;color: #ffffff;;margin-left: 30px;border-radius: 3.43px;margin: 8px auto
   }
   
   .pfootlast>p{
@@ -260,6 +279,9 @@ footer{
 @media only screen and (min-width:725px) and (max-width:1000px){
     .download{
         width: 200px;padding: 10px 20px
+    }
+    .logo{
+      width: 150px;height: fit-content;
     }
 }
 

@@ -139,7 +139,7 @@ span {
   gap: 20px;
   align-items: center;
   margin-top: 150px;
-  width: 100%;
+  width: 100%;justify-content: center
 }
 .content-4-media{
   display: none
@@ -252,12 +252,18 @@ b {
   line-height: 33.5px;display: inline-block;
 }
 .con7-1 > p {
-  width: 500px;
+  width: 100px;
   font-size: 22px;
   line-height: 23px;
 }
 .con7-2 {
-  width: 320px;
+  width: 290px;
+}
+.con7-4{
+  display: none
+}
+.con7-3{
+  width: 380px
 }
 .content8{
   position: relative

@@ -27,7 +27,7 @@
     width: 100%;
   }
   .con-2 {
-    width: 100%;
+    width: 100%;padding-top: 100px
   }
   .con-2 > h1 {
     width: 100%;
@@ -83,7 +83,7 @@
   }
   .content-3 {
     text-align: center;
-    margin-top: 270px;
+    margin-top: 210px;
 }
   .content-3 > p {
     font-size: 22px;
@@ -97,7 +97,7 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 80px;
     position: relative;
     width: 100%;
     flex-direction: column;
@@ -126,12 +126,15 @@
   #con4-4 {
     text-align: center;
   }
+  .terebene{
+    margin-top: 10px
+  }
   .content5 {
     display: flex;
     justify-content: space-around;
     background: #ffffff;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 40px;
     align-items: center;
     padding: 40px 0px;flex-direction: column
   }
@@ -241,6 +244,25 @@
   .mobileimg{
       position: absolute;top: 0px
   }
+  /* #dot{
+    position: relative;
+    top: 200px;display: unset;text-align: center;
+   
+
+  } */
+  #dot {
+    position: relative;
+    top:170px; /* Adjust as necessary */
+    left: 50%; /* Adjust as necessary */
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+}
+
+  .dot{
+    display: none
+  }
+  
   .con8-1>img {
     position: absolute;display: none;
     bottom: -170px;
@@ -272,7 +294,8 @@ footer{
   }
   
   .pfootlast>p{
-    text-align: center
+    text-align: center;margin: -30px 0px;
+  
   }
   
 }

@@ -1,5 +1,7 @@
+
+  @import url('https://fonts.cdnfonts.com/css/gill-sans-2');
 * {
-  text-transform: capitalize;
+  text-transform: capitalize;font-family: 'Gill Sans', sans-serif;
 }
 body {
   background: #f9f9f9;
@@ -78,13 +80,14 @@ nav {
   background: #75bf7a;
   align-items: center;
   margin: 0px;
-  padding: 20px 50px;
+  padding: 25px 50px;
   margin-top: 40px;
 }
 .content-2 > p {
-  width: 165px;
+  width: 175px;
   color: #ffffff;
   font-weight: 600;
+  margin: 0px
 }
 .inputele {
   width: 635px;
@@ -123,10 +126,10 @@ span {
   color: #75bf7a;
 }
 .one {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 5px solid #75bf7a;
+  width: 62px;
+  height: 64px;
+  /* border-radius: 50%; */
+  /* border: 5px solid #75bf7a; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,26 +137,35 @@ span {
   font-weight: bolder;
   font-size: 26px;
   display: inline-flex;
+  background-image: url(./Group.png)
 }
 .content-4 {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   align-items: center;
   margin-top: 150px;
-  width: 100%;justify-content: center
+  width: 100%;justify-content: center;
 }
 .content-4-media{
   display: none
 }
+
 .con4-1 {
   width: 400px;
-  text-align: right;
+  text-align: right;align-items: baseline
 }
 .con4-2 > h1 {
   font-size: 20px;
   margin-top: 20px;
   font-weight: 800;
 }
+
+.con-4up{
+position: relative;top: -10px
+}
+.con-4up-2{
+  position: relative;top: 9px
+  }
 .con4-2 > p {
   width: 270px;
   display: inline-flex;
@@ -164,7 +176,7 @@ span {
 .con4-5 {
   margin-top: 78px;
   position: relative;
-  top: -26px;
+  top: -42px;
 }
 
 #con4-3 {

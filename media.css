@@ -299,6 +299,11 @@ footer{
   }
   
 }
+@media (min-width:360px) and (max-width:400px){
+  .greenimg {
+    width: 350px;
+}
+}
 @media only screen and (min-width:725px) and (max-width:1000px){
     .download{
         width: 200px;padding: 10px 20px
